@@ -46,21 +46,21 @@ const unsortedRepos = [{
   name: 'awesome',
   stargazers_count: 1,
 }, {
-  name: 'callstack',
+  name: 'cp',
   stargazers_count: 9999,
 }, {
-  name: '-callstack',
+  name: '-cp',
   stargazers_count: 0,
 }]
 
 const ascNameRepos = [{
-  name: '-callstack',
+  name: '-cp',
   stargazers_count: 0,
 }, {
   name: 'awesome',
   stargazers_count: 1,
 }, {
-  name: 'callstack',
+  name: 'cp',
   stargazers_count: 9999,
 }, {
   name: 'is',
@@ -71,18 +71,18 @@ const descNameRepos = [{
   name: 'is',
   stargazers_count: 2222,
 }, {
-  name: 'callstack',
+  name: 'cp',
   stargazers_count: 9999,
 }, {
   name: 'awesome',
   stargazers_count: 1,
 },{
-  name: '-callstack',
+  name: '-cp',
   stargazers_count: 0,
 }]
 
 const ascStarsRepos = [{
-  name: '-callstack',
+  name: '-cp',
   stargazers_count: 0,
 }, {
   name: 'awesome',
@@ -91,12 +91,12 @@ const ascStarsRepos = [{
   name: 'is',
   stargazers_count: 2222,
 }, {
-  name: 'callstack',
+  name: 'cp',
   stargazers_count: 9999,
 }]
 
 const descStarsRepos = [{
-  name: 'callstack',
+  name: 'cp',
   stargazers_count: 9999,
 }, {
   name: 'is',
@@ -105,6 +105,6 @@ const descStarsRepos = [{
   name: 'awesome',
   stargazers_count: 1,
 }, {
-  name: '-callstack',
+  name: '-cp',
   stargazers_count: 0,
 }]

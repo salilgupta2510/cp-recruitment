@@ -13,14 +13,6 @@ Node version:
 Platform: 
   darwin x64
 
-Trace: 
-  SyntaxError: /Users/salgupta1/CallStack/callstack/package.json: Unexpected token } in JSON at position 405
-      at JSON.parse (<anonymous>)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
-
 npm manifest: 
   {
     "name": "ck-recruitment-task",
@@ -42,7 +34,6 @@ npm manifest:
     "devDependencies": {
       "@babel/core": "^7.8.7",
       "@babel/runtime": "^7.8.7",
-      "@callstack/eslint-config": "^9.1.0",
       "babel-jest": "^25.1.0",
       "eslint": "^6.8.0",
       "jest": "^25.1.0",
@@ -739,23 +730,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
     integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
   
-  "@callstack/eslint-config@^9.1.0":
-    version "9.1.0"
-    resolved "https://registry.yarnpkg.com/@callstack/eslint-config/-/eslint-config-9.1.0.tgz#098e400f0d92be8cca375b8f03bb7594179e5856"
-    integrity sha512-mesv2gOOkb+tf80LbCWd2A05cZ5W7U/UGTwJxxDoeU/rw9XI8qWsBWkwpuY73MxFH+zzSqqSsDn9O3UfOxhpeg==
-    dependencies:
-      babel-eslint "^10.0.3"
-      eslint-config-prettier "^6.7.0"
-      eslint-plugin-flowtype "^4.5.2"
-      eslint-plugin-import "^2.19.1"
-      eslint-plugin-jest "^23.1.1"
-      eslint-plugin-prettier "^3.1.1"
-      eslint-plugin-promise "^4.2.1"
-      eslint-plugin-react "^7.17.0"
-      eslint-plugin-react-hooks "^2.3.0"
-      eslint-plugin-react-native "^3.8.1"
-      eslint-restricted-globals "^0.2.0"
-      prettier "^1.19.1"
   
   "@cnakazawa/watch@^1.0.3":
     version "1.0.4"

@@ -1,4 +1,4 @@
-# Callstack's recruitment app
+# CP-Recruitment
 
 ## Getting started
 
